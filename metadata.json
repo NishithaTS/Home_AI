@@ -1,0 +1,6 @@
+{
+  "name": "Homie.AI — Intelligent Interior Designer & Shopping Assistant",
+  "description": "Transform your living space with AI room analysis, personalized design concepts, live budget tracking, and real furniture catalogs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
