@@ -31,7 +31,7 @@ export const LandingPage: React.FC = () => {
   return (
     <div className="bg-[#f2eee8] text-[#28231f]">
       <section className="relative min-h-[calc(100svh-1px)] overflow-hidden bg-[#241d19] text-white">
-        <video ref={heroRef} key={videos[activeVideo]} autoPlay muted loop playsInline className="absolute inset-0 h-full w-full object-cover opacity-75" aria-label="Atmospheric interior design video" src={videos[activeVideo]} />
+        <video ref={heroRef} key={videos[activeVideo]} autoPlay muted playsInline onEnded={() => setActiveVideo((current) => (current + 1) % videos.length)} className="absolute inset-0 h-full w-full object-cover opacity-75" aria-label={`Atmospheric interior design video ${activeVideo + 1} of ${videos.length}`} src={videos[activeVideo]} />
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/35 to-black/15" />
         <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-black/55 to-transparent" />
         <div className="relative z-10 flex min-h-[calc(100svh-1px)] flex-col justify-between px-5 pb-8 pt-28 sm:px-10 lg:px-16">
