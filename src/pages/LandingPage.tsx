@@ -6,8 +6,8 @@ const videos = [
   'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/375241_medium-XWpRBigsmWZoMJnsB0YgUnmkk8Eyn4.mp4',
   'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/375251_medium-vCTXSd1anfS4KztbSH5UTCwSKeRTbB.mp4',
   'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/375232_medium-juRkKf01T2E3LSC5aa4VfDIo918cpe.mp4',
-  'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitled%20design%20%281%29-9CJ34vmEtm2OnZ4vh8CtfEmkBazfjH.mp4',
   'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitled%20design-ey18UZCyYdGkKetFVtOyuuyLr5Ujw3.mp4',
+  'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Untitled%20design%20%281%29-9CJ34vmEtm2OnZ4vh8CtfEmkBazfjH.mp4',
 ];
 
 const stories = [
